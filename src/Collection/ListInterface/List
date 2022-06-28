@@ -1,0 +1,26 @@
+List Interface in Java is a way to store Ordered collection.
+It is an Ordered Collection of objects in which duplicate values can be stored.
+List Interface is found in java.util package and inherits the Collection interface.
+
+
+ArrayList Class :
+The ArrayList class provides the implementation of the List interface.
+The ArrayList class allows you to create a resizable array, it size increases dramatically when more element are added.
+ArrayList proves to be more efficient in searching an object in the list and inserting the object at the end of the list.
+
+
+LinkedList Class :
+The LinkedList Class provides the implementation of the List interface.
+The LinkedList Class enables you to create a doubly-linked list.
+The doubly-linked list is a set of sequentially linked records called nodes,
+where each node contains two links that are the references of the previous node, and the next node in the sequence,
+respectively.
+LinkedList can be traversed in the forward or backward direction,
+LinkedList proves to be efficient in insertion and deletion of objects from the list.
+
+
+Vector Class :
+The Vector class is similar to the ArrayList and LinkedList classes.
+However, the methods of the Vector class are synchronized.
+which means that only one thread at a given time can access it in a multithreaded environment.
+On the other hand, the method of the ArrayList and LinkedList are not synchronized
